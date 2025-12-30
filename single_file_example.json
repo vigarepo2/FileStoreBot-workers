@@ -1,0 +1,10 @@
+{
+  "type": "single",
+  "message_id": 1050,
+  
+  "options": {
+    "_comment": "Only include lines you want to change from global defaults.",
+    "protect_content": true,
+    "premium_only": false
+  }
+}
