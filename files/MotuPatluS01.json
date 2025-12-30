@@ -1,0 +1,12 @@
+{
+  "type": "bulk",
+  "content": {
+    "message_ids": []
+  },
+  "options": {
+    "force_sub_enabled": true,
+    "protect_content": false,
+    "show_progress": false,
+    "premium_only": false
+  }
+}
