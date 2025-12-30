@@ -14,7 +14,7 @@
     "protect_content": true,
     "premium_only": false,
     "force_sub_enabled": true,
-    "show_progress": true,
+    "show_progress": false,
     "show_buttons": false
   }
 }
