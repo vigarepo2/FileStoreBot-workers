@@ -1,23 +1,20 @@
 {
   "type": "bulk",
-  
   "content": {
     "files": [
-      { "id": 389 },
-      { "id": 390 },
-      { "id": 391 },
-      { "id": 392 },
-      { "id": 393 },
-      { "id": 394 },
-      { "id": 395 }
+      {
+        "id": 389
+      },
+      {
+        "id": 390
+      }
     ]
   },
-
   "options": {
     "protect_content": true,
     "premium_only": false,
-    "show_progress": true
+    "force_sub_enabled": true,
+    "show_progress": true,
+    "show_buttons": true
   }
 }
-
-
