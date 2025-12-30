@@ -3,13 +3,13 @@
   
   "content": {
     "files": [
-      { "id": 389, "name": "Family Guy S01E01" },
-      { "id": 390, "name": "Family Guy S01E02" },
-      { "id": 391, "name": "Family Guy S01E03" },
-      { "id": 392, "name": "Family Guy S01E04" },
-      { "id": 393, "name": "Family Guy S01E05" },
-      { "id": 394, "name": "Family Guy S01E06" },
-      { "id": 395, "name": "Family Guy S01E07" }
+      { "id": 389 },
+      { "id": 390 },
+      { "id": 391 },
+      { "id": 392 },
+      { "id": 393 },
+      { "id": 394 },
+      { "id": 395 }
     ]
   },
 
