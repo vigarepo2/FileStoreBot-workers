@@ -1,0 +1,13 @@
+{
+  "type": "bulk",
+  
+  "content": {
+    "message_ids": [201, 205, 202, 203, 210]
+  },
+
+  "options": {
+    "premium_only": true,
+    "protect_content": true,
+    "show_progress": true
+  }
+}
