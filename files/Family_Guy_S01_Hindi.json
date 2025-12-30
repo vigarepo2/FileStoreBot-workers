@@ -15,6 +15,6 @@
     "premium_only": false,
     "force_sub_enabled": true,
     "show_progress": true,
-    "show_buttons": true
+    "show_buttons": false
   }
 }
