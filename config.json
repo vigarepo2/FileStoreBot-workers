@@ -1,14 +1,14 @@
 {
-  "_comment": "Global settings. Change this to update the whole bot.",
+  "_comment": "Global Configuration for File Server Bot. Upload to root of your GitHub Repo.",
 
   "bot_settings": {
-    "database_channel": -1009876543210,
-    "admin_ids": [12345678, 87654321],
-    "contact_url": "[https://t.me/MySupportBot](https://t.me/MySupportBot)"
+    "database_channel": -1002813646390,
+    "admin_ids": [6986536422, 0],
+    "contact_url": "https://t.me/Links4UBot"
   },
 
   "defaults": {
-    "_comment": "If a file doesn't specify these, we use these values.",
+    "_comment": "Default settings for files if not specified in the file's own JSON",
     "force_sub_enabled": true,
     "protect_content": false,
     "premium_only": false,
@@ -16,25 +16,32 @@
   },
 
   "messages": {
-    "start": "<b>Welcome!</b>\nSend me a file code to start.",
-    "file_caption": "<b>{filename}</b>\n\n<i>Uploaded by @MyChannel</i>",
-    "access_denied": "⛔️ You do not have access to this file.",
-    "premium_required": "⭐️ <b>Premium Only</b>\nThis file is restricted to premium members.",
-    "bulk_status": "Processing file {current} of {total}..."
+    "start": "👋 <b>Welcome to File Server Bot!</b>\n\nI can retrieve files for you from our database.\n\n📂 <b>How to use:</b>\nSend me a file code or click a link provided by the admin.",
+    "help": "<b>Help Menu</b>\n\nThis bot stores files on Telegram. Links are permanent as long as the channel exists.\n\nNeed help? Contact support.",
+    "file_caption": "<b>{filename}</b>\n\n<i>Powered by @Links4U_Channel</i>",
+    "access_denied": "⛔️ <b>Access Denied</b>\nYou are blocked from using this bot.",
+    "file_not_found": "❌ <b>File Not Found</b>\nPlease check the code and try again.",
+    "premium_required": "⭐️ <b>Premium Content</b>\nThis file is available to Premium users only.",
+    "bulk_status": "🔄 <b>Processing...</b>\nSending file {current} of {total}"
   },
 
   "buttons": {
     "updates_channel": {
-      "text": "📢 Join Updates",
-      "url": "[https://t.me/MyUpdatesChannel](https://t.me/MyUpdatesChannel)"
+      "text": "📢 Updates Channel",
+      "url": "https://t.me/Links4U_Channel"
+    },
+    "support": {
+      "text": "🆘 Support",
+      "url": "https://t.me/Links4UBot"
     }
   },
 
   "force_sub_config": {
-    "channel_id": -1001122334455,
-    "invite_link": "[https://t.me/MyChannelLink](https://t.me/MyChannelLink)",
-    "message": "⚠️ <b>Action Required</b>\nPlease join our channel to access this file.",
+    "channel_id": -1002590990032,
+    "invite_link": "https://t.me/Links4U_Channel",
+    "message": "⚠️ <b>Join Channel to Download</b>\n\nYou must join our updates channel to access this file. Please join and click 'Try Again'.",
     "button_join": "Join Channel",
-    "button_verify": "✅ I Joined"
+    "button_verify": "✅ Try Again"
   }
 }
+
