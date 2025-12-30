@@ -1,0 +1,11 @@
+{
+  "type": "single",
+  "message_id": 389,
+  
+  "options": {
+    "premium_only": false,
+    "protect_content": false,
+    "force_sub_enabled": true
+  }
+}
+
