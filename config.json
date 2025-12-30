@@ -1,5 +1,5 @@
 {
-  "_comment": "Global Configuration for File Server Bot. Upload to root of your GitHub Repo.",
+  "_comment": "Production Configuration. Upload to GitHub Root.",
 
   "bot_settings": {
     "database_channel": -1002813646390,
@@ -8,30 +8,30 @@
   },
 
   "defaults": {
-    "_comment": "Default settings for files if not specified in the file's own JSON",
+    "_comment": "Global defaults. 'protect_content': true means users CANNOT forward/save files.",
     "force_sub_enabled": true,
-    "protect_content": false,
+    "protect_content": true,
     "premium_only": false,
     "silent_mode": false
   },
 
   "messages": {
-    "start": "👋 <b>Welcome to File Server Bot!</b>\n\nI can retrieve files for you from our database.\n\n📂 <b>How to use:</b>\nSend me a file code or click a link provided by the admin.",
-    "help": "<b>Help Menu</b>\n\nThis bot stores files on Telegram. Links are permanent as long as the channel exists.\n\nNeed help? Contact support.",
-    "file_caption": "<b>{filename}</b>\n\n<i>Powered by @Links4U_Channel</i>",
-    "access_denied": "⛔️ <b>Access Denied</b>\nYou are blocked from using this bot.",
-    "file_not_found": "❌ <b>File Not Found</b>\nPlease check the code and try again.",
-    "premium_required": "⭐️ <b>Premium Content</b>\nThis file is available to Premium users only.",
-    "bulk_status": "🔄 <b>Processing...</b>\nSending file {current} of {total}"
+    "start": "<b>👋 Welcome to FileStore Bot</b>\n\nI am your automated file delivery assistant.\n\n<b>📁 How to access files:</b>\nSimply send me the <i>file code</i> provided by the channel, or click the start link.\n\n<i>🚀 Fast, Secure, & Always Online.</i>",
+    "help": "<b>📚 System Help</b>\n\n<b>About:</b>\nThis bot retrieves files from our secure cloud storage.\n\n<b>Commands:</b>\n/start [code] - Get a specific file\n/help - Show this menu\n\n<b>Note:</b>\nIf a file is protected, you cannot forward it to others.",
+    "file_caption": "<b>📄 {filename}</b>\n\n<i>Powered by @Links4U_Channel</i>",
+    "access_denied": "<b>⛔️ Access Restricted</b>\n\nYour user ID is currently blocked from using this service. Please contact support.",
+    "file_not_found": "<b>❌ File Not Found</b>\n\nThe code you entered is invalid or the file has been removed from our database.",
+    "premium_required": "<b>🌟 Premium Access Required</b>\n\nThis content is exclusive to our Premium members.\n<i>Contact Admin to upgrade.</i>",
+    "bulk_status": "<b>🔄 Delivery in Progress</b>\n\n<i>Sending file {current} of {total}...</i>\nPlease wait until all files are received."
   },
 
   "buttons": {
     "updates_channel": {
-      "text": "📢 Updates Channel",
+      "text": "📢 Official Channel",
       "url": "https://t.me/Links4U_Channel"
     },
     "support": {
-      "text": "🆘 Support",
+      "text": "💬 Support Chat",
       "url": "https://t.me/Links4UBot"
     }
   },
@@ -39,9 +39,9 @@
   "force_sub_config": {
     "channel_id": -1002665086299,
     "invite_link": "https://t.me/Links4U_Channel",
-    "message": "⚠️ <b>Join Channel to Download</b>\n\nYou must join our updates channel to access this file. Please join and click 'Try Again'.",
-    "button_join": "Join Channel",
-    "button_verify": "✅ Try Again"
+    "message": "<b>⚠️ Verification Required</b>\n\nTo access our file library, you must join our official channel.\n\n<i>1. Join the channel below.\n2. Click 'Verify Subscription'.</i>",
+    "button_join": "➕ Join Channel",
+    "button_verify": "✅ Verify Subscription"
   }
 }
 
