@@ -1,11 +1,18 @@
 {
-  "type": "single",
-  "message_id": 389,
+  "type": "bulk",
   
+  "content": {
+    "files": [
+      { "id": 389, "name": "Family Guy S01E01" },
+      { "id": 390, "name": "Family Guy S01E02" },
+      { "id": 391, "name": "Family Guy S01E03" }
+    ]
+  },
+
   "options": {
+    "protect_content": true,
     "premium_only": false,
-    "protect_content": false,
-    "force_sub_enabled": true
+    "show_progress": true
   }
 }
 
