@@ -1,0 +1,40 @@
+{
+  "_comment": "Global settings. Change this to update the whole bot.",
+
+  "bot_settings": {
+    "database_channel": -1009876543210,
+    "admin_ids": [12345678, 87654321],
+    "contact_url": "[https://t.me/MySupportBot](https://t.me/MySupportBot)"
+  },
+
+  "defaults": {
+    "_comment": "If a file doesn't specify these, we use these values.",
+    "force_sub_enabled": true,
+    "protect_content": false,
+    "premium_only": false,
+    "silent_mode": false
+  },
+
+  "messages": {
+    "start": "<b>Welcome!</b>\nSend me a file code to start.",
+    "file_caption": "<b>{filename}</b>\n\n<i>Uploaded by @MyChannel</i>",
+    "access_denied": "⛔️ You do not have access to this file.",
+    "premium_required": "⭐️ <b>Premium Only</b>\nThis file is restricted to premium members.",
+    "bulk_status": "Processing file {current} of {total}..."
+  },
+
+  "buttons": {
+    "updates_channel": {
+      "text": "📢 Join Updates",
+      "url": "[https://t.me/MyUpdatesChannel](https://t.me/MyUpdatesChannel)"
+    }
+  },
+
+  "force_sub_config": {
+    "channel_id": -1001122334455,
+    "invite_link": "[https://t.me/MyChannelLink](https://t.me/MyChannelLink)",
+    "message": "⚠️ <b>Action Required</b>\nPlease join our channel to access this file.",
+    "button_join": "Join Channel",
+    "button_verify": "✅ I Joined"
+  }
+}
