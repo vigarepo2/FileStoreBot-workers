@@ -10,7 +10,7 @@
 
   "options": {
     "force_sub_enabled": true,
-    "protect_content": false,
+    "protect_content": true,
     "show_progress": true,
     "premium_only": false
   }
