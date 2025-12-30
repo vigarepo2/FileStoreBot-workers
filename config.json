@@ -1,5 +1,5 @@
 {
-  "_comment": "Configuration V6 - Caption Fix",
+  "_comment": "Configuration V7",
 
   "bot_settings": {
     "database_channel": -1002813646390,
@@ -15,14 +15,14 @@
   },
 
   "messages": {
-    "start": "<b>👋 Hello {name}!</b>\n\nWelcome to <b>Links4U File Store</b>.\n\n<b>📂 How to use:</b>\nSend me the code provided in the channel to get your files instantly.\n\n<i>⚡️ Server Status: Online</i>",
-    "help": "<b>🛠 Help Center</b>\n\n<b>Commands:</b>\n/start - Restart Bot\n/help - Show this message\n\n<b>Note:</b>\nJoin our Updates Channel to access locked files.",
+    "start": "<b>👋 Welcome {name}</b>\n\nThis bot is used for storing and delivering files via Telegram.\nAll operations are handled automatically.\n\n<i>Status: Online</i>",
+    "help": "<b>🛠 Help Menu</b>\n\nThis system is automated.\n\n• Click a link from our channel to get files.\n• Join the updates channel for access.",
     "caption_footer": "<b>Updates Channel:</b> @Links4U_Channel",
-    "footer_credit": "Thank you for using Links4U Bot",
+    "footer_credit": "Thank you for using @Links4UBot",
     "access_denied": "<b>⛔️ Access Denied</b>",
-    "file_not_found": "<b>❌ File Not Found</b>\nPlease check the code.",
+    "file_not_found": "<b>❌ File Not Found</b>",
     "premium_required": "<b>🌟 Premium Only</b>",
-    "bulk_status": "<b>🚀 Processing Bulk Order...</b>\n<i>Sending {total} files. Please wait.</i>"
+    "bulk_status": "<b>🚀 Processing...</b>\n<i>Sending {total} files.</i>"
   },
 
   "buttons": {
