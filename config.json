@@ -1,5 +1,5 @@
 {
-  "_comment": "Enterprise Configuration V5",
+  "_comment": "Configuration V6 - Caption Fix",
 
   "bot_settings": {
     "database_channel": -1002813646390,
@@ -8,7 +8,6 @@
   },
 
   "defaults": {
-    "_comment": "RESTRICTION LOGIC: 'protect_content: true' affects FREE users only. Premium/Admins are auto-excluded.",
     "force_sub_enabled": true,
     "protect_content": true,
     "premium_only": false,
@@ -16,19 +15,19 @@
   },
 
   "messages": {
-    "start": "<b>👋 Hello {name}!</b>\n\nWelcome to the <b>Premium File Store</b>.\nI am here to deliver your files instantly and securely.\n\n<b>📂 How to Download:</b>\n1. Get a file code from our channel.\n2. Click the link or send the code here.\n\n<i>⚡️ Server Status: Online & Fast</i>",
-    "help": "<b>🛠 Assistance Center</b>\n\nIf you are facing issues retrieving files, ensure you have joined our updates channel.\n\n<b>Commands:</b>\n/start - Main Menu\n/help - This message",
-    "file_caption": "<b>📂 {filename}</b>\n\n━━━━━━━━━━━━\n<b>📢 Channel:</b> @Links4U_Channel\n━━━━━━━━━━━━",
-    "footer_credit": "Thank you for using @Links4UBot",
-    "access_denied": "<b>⛔️ Access Restricted</b>\nYour account is not authorized to use this bot.",
-    "file_not_found": "<b>❌ File Not Found</b>\nInvalid code or file removed.",
-    "premium_required": "<b>🌟 Premium Only</b>\nThis file is restricted to VIP members.",
-    "bulk_status": "<b>🚀 Processing Bulk Order...</b>\n\n<i>Preparing {total} files for delivery. Please do not block the bot.</i>"
+    "start": "<b>👋 Hello {name}!</b>\n\nWelcome to <b>Links4U File Store</b>.\n\n<b>📂 How to use:</b>\nSend me the code provided in the channel to get your files instantly.\n\n<i>⚡️ Server Status: Online</i>",
+    "help": "<b>🛠 Help Center</b>\n\n<b>Commands:</b>\n/start - Restart Bot\n/help - Show this message\n\n<b>Note:</b>\nJoin our Updates Channel to access locked files.",
+    "caption_footer": "<b>Updates Channel:</b> @Links4U_Channel",
+    "footer_credit": "Thank you for using Links4U Bot",
+    "access_denied": "<b>⛔️ Access Denied</b>",
+    "file_not_found": "<b>❌ File Not Found</b>\nPlease check the code.",
+    "premium_required": "<b>🌟 Premium Only</b>",
+    "bulk_status": "<b>🚀 Processing Bulk Order...</b>\n<i>Sending {total} files. Please wait.</i>"
   },
 
   "buttons": {
     "updates_channel": {
-      "text": "📢 Official Channel",
+      "text": "📢 Updates Channel",
       "url": "https://t.me/Links4U_Channel"
     },
     "support": {
@@ -40,7 +39,7 @@
   "force_sub_config": {
     "channel_id": -1002665086299,
     "invite_link": "https://t.me/Links4U_Channel",
-    "message": "<b>🔒 Locked Content</b>\n\nTo unlock this file, you must verify your membership.\n\n<b>1️⃣ Join Channel below</b>\n<b>2️⃣ Click Verify Button</b>",
+    "message": "<b>🔒 Locked Content</b>\n\nPlease join our channel to unlock this file.\n\n<b>1. Join Channel below</b>\n<b>2. Click Verify</b>",
     "button_join": "➕ Join Channel",
     "button_verify": "✅ Verify Membership"
   }
